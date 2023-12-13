@@ -14,4 +14,4 @@ number3 = st.number_input("Insert third number", value=None, placeholder="Type a
 
 if st.button('Find Largest'):
   largest = find_largest(number1, number2, number3)
-  st.success('The largest number is: ', largest)
+  st.write('The largest number is: ', largest)
